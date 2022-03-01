@@ -38,16 +38,14 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough (GIF)
 
-If you recorded multiple GIFs for all the implemented features, you can add them here:
-
 <img src='LightandSoundgame.gif' />
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+Among all the resources provided in the walkthrough, I found https://www.the-art-of-web.com/javascript/creating-sounds/ incredibly helpful at explaining how sound output worked in JavaScript. I also used https://developer.mozilla.org/en-US/docs/Web/JavaScript to research JavaScript syntax.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+Before starting this project, I knew nothing about how sound could be played in web applications. I have worked with JavaScript/HTML/CSS in the past, but for whatever reason I have never considered using sound output. Initially, the playTone(), startTone(), stopTone() and initialization code looked unfamiliar to me, and I had very little understanding about what the code was actually doing. When I reached this roadblock, I reviewed the “JavaScript: Creating Sounds with AudioContext” article from The Art of Web that was provided in the walkthrough. I found that the article did a great job at breaking down many of the aspects of sound that were unfamiliar to me such as frequency, tone and time. Once I had a better understanding of the terminology and the syntax surrounding sound creation, the code made much more sense as I progressed through it line by line. Once I connected the functions to the buttons, I began to experiment with changing the values of the frequencies and time in order to get a better demonstration of how they worked. In doing so, I was able to create some interesting combinations and see what each of the JavaScript functions were doing as buttons were pressed and released. 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
@@ -64,7 +62,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright Garrett Crowley
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
