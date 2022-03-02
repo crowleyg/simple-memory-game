@@ -42,15 +42,19 @@ The following **additional** features are implemented:
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
+
 Among all the resources provided in the walkthrough, I found https://www.the-art-of-web.com/javascript/creating-sounds/ incredibly helpful at explaining how sound output worked in JavaScript. I also used https://developer.mozilla.org/en-US/docs/Web/JavaScript to research JavaScript syntax.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
+
 Before starting this project, I knew nothing about how sound could be played in web applications. I have worked with JavaScript/HTML/CSS in the past, but for whatever reason I have never considered using sound output. Initially, the playTone(), startTone(), stopTone() and initialization code looked unfamiliar to me, and I had very little understanding about what the code was actually doing. When I reached this roadblock, I reviewed the “JavaScript: Creating Sounds with AudioContext” article from The Art of Web that was provided in the walkthrough. I found that the article did a great job at breaking down many of the aspects of sound that were unfamiliar to me such as frequency, tone and time. Once I had a better understanding of the terminology and the syntax surrounding sound creation, the code made much more sense as I progressed through it line by line. Once I connected the functions to the buttons, I began to experiment with changing the values of the frequencies and time in order to get a better demonstration of how they worked. In doing so, I was able to create some interesting combinations and see what each of the JavaScript functions were doing as buttons were pressed and released. 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
+
 After completing my submission, I am curious about how many modern websites are managed and maintained. Many of the websites I visit on a daily basis, such as Gmail and news sites, are able to update themselves with new information without the user ever having to refresh the page. These websites are never taken offline to be refreshed and instead manage to update themselves seamlessly. The web application that we built for this project and the other things that I have worked on in the past are static and visually look unimpressive when compared to many of my favorite websites that integrate dynamic elements into their UX/UI. I really wish to learn how to make these elements and implement them into my own webpages.
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
+
 If I worked on this project for a few more hours, I would focus on implementing a random sequence generator for the pattern used in each game session, a decreasing time limit for each user input and a leaderboard. The random sequence generator would allow the game to have much more variability and ensure that the player does not simply learn the pattern. A time limit that decreased after every fifth element was added to the pattern would create intensity by keeping pressure on the player and making them anxious as they rapidly try to remember the pattern at an increasingly fast rate. The leaderboard would allow the player to feel a sense of accomplishment and give the player an incentive to keep playing in order to be number one.
 
 ## Interview Recording URL Link
