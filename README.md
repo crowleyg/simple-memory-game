@@ -4,7 +4,7 @@
 
 Submitted by: Garrett Crowley
 
-Time spent: 3 hours spent in total
+Time spent: 5 hours spent in total
 
 Link to project: https://glitch.com/edit/#!/tourmaline-accurate-stomach
 
