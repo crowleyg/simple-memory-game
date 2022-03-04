@@ -4,7 +4,7 @@ const cluePauseTime = 333; //how long to pause in between clues
 const nextClueWaitTime = 1000; //how long to wait before starting playback of the clue sequence
 
 //Global Variables
-var pattern = [2, 2, 4, 3, 2, 1, 2, 4];
+var pattern = [2, 5, 4, 3, 2, 1, 1, 6, 2, 4, 6, 4];
 var progress = 0; 
 var gamePlaying = false;
 var tonePlaying = false;
@@ -29,10 +29,12 @@ function stopGame() {
 
 // Sound Synthesis Functions
 const freqMap = {
-  1: 261.6,
-  2: 329.6,
-  3: 392,
-  4: 466.2
+  1: 880.00,
+  2: 987.77,
+  3: 523.25,
+  4: 587.33,
+  5: 659.25,
+  6: 698.46
 }
 function playTone(btn,len){ 
   o.frequency.value = freqMap[btn]
@@ -100,7 +102,7 @@ function loseGame(){
 }
 function winGame(){
   stopGame();
-  alert("Game Over. You Won!");
+  alert("Congratulations! You Won!");
 }
 
 function guess(btn){

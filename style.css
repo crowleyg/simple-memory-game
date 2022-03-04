@@ -1,17 +1,38 @@
 body {
   margin: 2em;
   font-family: helvetica, arial, sans-serif;
-  background-color: slategrey;
-  color: white; 
+  background-color: slateblue;
+  color: ghostwhite; 
 }
 
 h1 {
   font-family: verdana, arial, sans-serif;
+  background-color: darkslateblue;
+  padding: 20px;
+  text-align: center;
+  border-radius: 100px;
+}
+
+p {
+  background-color: darkslateblue;
+  padding: 20px;
+  text-align: center;
+  border-radius: 100px;
+}
+
+div{
+  text-align: center;
 }
 
 button {
-  padding: 10px;
+  padding: 20px;
   border-radius: 10px;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: darkslateblue;
+  color: ghostwhite;
+  
 }
 
 #gameButtonArea > button {
@@ -40,6 +61,14 @@ button {
   background: lightyellow;
 }
 
+#button5 {
+  background: lightsalmon;
+}
+
+#button6 {
+  background: lightseagreen;
+}
+
 #button1:active, #button1.lit {
   background: green;
   
@@ -57,4 +86,10 @@ button {
   background: yellow;
 }
 
+#button5:active, #button5.lit {
+  background: salmon;
+}
 
+#button6:active, #button6.lit {
+  background: seagreen;
+}
