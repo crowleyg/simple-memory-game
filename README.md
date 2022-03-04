@@ -6,7 +6,7 @@ Submitted by: Garrett Crowley
 
 Time spent: 5 hours spent in total
 
-Link to project: https://glitch.com/edit/#!/tourmaline-accurate-stomach
+Link to project: https://glitch.com/edit/#!/lumbar-cuddly-abrosaurus
 
 ## Required Functionality
 
